@@ -1,7 +1,9 @@
 # SDL Games Site
 
-Check out my collection of video games I developed using C++ and its SDL library.
+Check out my collection of video games I developed using C++ and the SDL library. The games were ported to the web using Emscripten.
 
-</br>
+Link: https://ishuagrawal.github.io/sdl-games/
+
+<br>
 
 ## Games:
