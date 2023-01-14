@@ -2,9 +2,7 @@
 
 Check out my collection of video games I developed using C++ and the SDL library. The games were ported to the web using Emscripten.
 
-Link: https://ishuagrawal.github.io/sdl-games/
-
-#
+Link: https://ishuagrawal.github.io/sdl-games/  
 
 ## Games:
 
@@ -70,14 +68,14 @@ This game is based on the classic arcade game *Frogger*.
 - Frog can ride logs and dies if it jumps into the water.
 - Frog is paused when it reaches the goal.
 
-## **Asteroids**
+### **Asteroids**
 This game is based on Atari's version of *Asteroids* with updated graphics.
 - Ship appears and moves on screen using the arrow keys.
 - Asteroids initialize with random positions and rotations, move on screen, and wrap around when they go off screen.
 - Pressing spacebar fires lasers, but you can’t shoot more than one a second, and lasers will disappear after one second if they hit nothing.
 - Lasers can collide with asteroids and in the event of a collision both are destroyed.
 
-## **Pong**
+### **Pong**
 This game is a single-player version of Pong.
 - The up and down keys move the paddle and you can’t move the paddle off screen.
 - The ball bounces off the wall and paddle as expected.
