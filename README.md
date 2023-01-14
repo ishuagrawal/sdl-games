@@ -6,14 +6,14 @@ Link: https://ishuagrawal.github.io/sdl-games/
 
 ## Games:
 
-### **Mario Kart**:
+### **Mario Kart**
 This game implements the original SNES Rainbow Road track from the original *Super Mario Kart*.
 - The player can drive the kart with ```W```, ```A```, and ```D```, with a spring camera working appropriately.
 - The kart’s height is correctly interpolated based on the height map.
 - The enemy drives around the track at a reasonable speed without driving in circles, getting stuck, or driving noticeably outside the bounds of the track.
 - Checkpoints, lap tracking, and place tracking work correctly. Game start timer works as specified, and game displays whether you win or lose at the end.
 
-### **Star Fox Tunnel**:
+### **Star Fox Tunnel**
 This game implements a 3D “endless flying” gameplay using art assets inspired by Star Fox.
 - The ship moves using WASD, and the follow camera follows appropriately.
 - Obstacles 1 to 20 load and are randomly selected after the first in-order iteration.
@@ -22,14 +22,14 @@ This game implements a 3D “endless flying” gameplay using art assets inspire
 - You can do a barrel roll as described by pressing Q, it will regenerate 1 shield level (up to the max of 3), and Peppy will periodically remind you to do a barrel roll.
 - The game speeds up over time.
 
-### **Zelda**:
+### **Zelda**
 This game implements a small portion of 1991’s *A Link to the Past* for the Super Nintendo (SNES).
 - The tiles for the map are loaded appropriately.
 - Link can walk with the arrow keys. Multiple arrow key presses has Link in one of the pressed directions. The correct walking animation plays based on the direction, and the correct standing animation plays when not moving. The camera centers on and follows Link around as he walks.
 - The soldier travels in a path, computed based on the A* search algorithm.
 - Link cannot walk through enemies and can deal damage to them. Soldiers die in two hits (while being stunned after one hit) and the bushes in one.
 
-### **Parkour's Edge**:
+### **Parkour's Edge**
 This game is a first-person parkour game, inspired by 2008's *Mirror's Edge*.
 - The player correctly moves with ```WASD```. Mouse left/right movement rotates the player on the yaw axis, and up/down movement of the mouse pitches the camera (with the maximum up/down pitch clamped).
 - The player can jump (on the leading edge of the spacebar), fall (at the apex of their jump), and collide with blocks.
