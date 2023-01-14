@@ -4,7 +4,7 @@ Check out my collection of video games I developed using C++ and the SDL library
 
 Link: https://ishuagrawal.github.io/sdl-games/
 
-<br>
+#
 
 ## Games:
 
